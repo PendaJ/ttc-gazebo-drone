@@ -7,6 +7,7 @@ authors:
     given-names: Msuega
 version: 0.1.0
 date-released: 2026-09-12
+doi: "10.5281/zenodo.22721799"
 repository-code: "https://github.com/PendaJ/ttc-gazebo-drone"
 abstract: >-
   Gazebo Harmonic and ROS 2 setup for controlled monocular time-to-collision
