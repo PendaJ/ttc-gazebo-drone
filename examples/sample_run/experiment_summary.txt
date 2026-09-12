@@ -1,0 +1,21 @@
+TTC EXPERIMENT SUMMARY
+======================
+status: completed
+forward_speed_mps: 0.500000
+travel_distance_m: 2.000000
+takeoff_speed_mps: 0.300000
+takeoff_altitude_m: 0.450000
+hover_time_s: 3.000000
+record_start_x_m: -0.000000
+record_start_y_m: -0.000000
+final_x_m: 2.002319
+final_y_m: 0.011870
+final_z_m: 0.591279
+distance_travelled_m: 2.002319
+saved_frames: 146
+first_timestamp_ns: 13465000000
+last_timestamp_ns: 18316000000
+capture_duration_s: 4.851000000
+measured_frame_rate_hz: 29.890744
+frames_csv: frames.csv
+images_directory: images

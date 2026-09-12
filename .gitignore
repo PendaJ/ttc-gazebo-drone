@@ -1,0 +1,38 @@
+# ROS 2 / colcon
+build/
+install/
+log/
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Generated experiment data
+/data/
+results/
+output/
+*.bag
+*.db3
+
+# Large media / learned weights
+*.mp4
+*.avi
+*.mov
+*.pt
+*.pth
+*.onnx
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.swp
+*.tmp
+*~

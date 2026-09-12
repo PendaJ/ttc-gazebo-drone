@@ -1,0 +1,16 @@
+ttc_experiment:
+  ros__parameters:
+    takeoff_speed: 0.30
+    takeoff_altitude: 0.45
+    hover_time: 3.0
+
+    forward_speed: 0.50
+    travel_distance: 2.0
+
+    # The '~' is expanded by the Python node.
+    data_root: "~/ttc_gazebo_drone_data"
+    run_name: "auto"
+
+    cmd_topic: "/X3/gazebo/command/twist"
+    image_topic: "/drone/camera/image_raw"
+    odom_topic: "/model/x3/odometry"

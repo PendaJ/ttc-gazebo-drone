@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata below."
+title: "TTC Gazebo Drone"
+type: software
+authors:
+  - family-names: Iorpenda
+    given-names: Msuega
+version: 0.1.0
+date-released: 2026-09-12
+repository-code: "https://github.com/PendaJ/ttc-gazebo-drone"
+abstract: >-
+  Gazebo Harmonic and ROS 2 setup for controlled monocular time-to-collision
+  experiments using an X3 UAV, synchronized camera imagery, and simulator
+  ground-truth odometry.
+license: BSD-3-Clause
