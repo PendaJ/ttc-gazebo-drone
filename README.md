@@ -118,14 +118,16 @@ stored in Git.
 The development workspace contained several third-party Gazebo assets. This
 cleaned repository avoids committing the large copied X3 meshes and replaces
 the development refrigerator mesh with a primitive redistribution-safe proxy.
-See [THIRD_PARTY.md](THIRD_PARTY.md) before making the repository public.
+The adapted X3 model is attributed and documented under its upstream CC BY 4.0
+license in [THIRD_PARTY.md](THIRD_PARTY.md).
 
 ## Reproducibility status
 
-This is a **v0.1.0 public-release candidate** generated from the research
-workspace. Before publication, complete every item in
-[RELEASE_CHECKLIST.md](RELEASE_CHECKLIST.md), especially the upstream X3 license
-verification and maintainer-email replacement.
+Version **v0.1.0** is the current public release and is archived on Zenodo with
+DOI **10.5281/zenodo.22721799**. X3 licensing and maintainer metadata have been
+resolved. The remaining checks in [RELEASE_CHECKLIST.md](RELEASE_CHECKLIST.md)
+cover clean-build and runtime validation before the paper-associated `v1.0.0`
+release is frozen.
 
 ## Related repositories
 
@@ -138,8 +140,9 @@ Planned companion repositories in the TTC software suite:
 
 ## Citation
 
-Citation metadata is provided in [`CITATION.cff`](CITATION.cff). Update the
-repository URL and, once available, the associated paper DOI before the v1.0.0
+Citation metadata is provided in [`CITATION.cff`](CITATION.cff). The current
+v0.1.0 archive is available at DOI **10.5281/zenodo.22721799**. A new
+version-specific DOI will be used for the final paper-associated `v1.0.0`
 release.
 
 ## License
